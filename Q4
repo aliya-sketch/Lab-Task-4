@@ -1,0 +1,9 @@
+# Q4 
+shopping = []
+
+for z in range(5):
+    products= input("Enter shopping products: ")
+    shopping.extend(products)
+
+print("Your shopping list is:")
+print(shopping)
