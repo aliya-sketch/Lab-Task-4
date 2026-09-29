@@ -1,0 +1,10 @@
+#Q3......
+
+stu = ["Ali", "Ahmed", "Sara", "Ayesha", "Bilal"]
+
+n = input("Enter Student name: ")
+
+if n in stu:
+    print("Student Founded..!")
+else:
+    print("Student Not Found..!!")
